@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamedata>
+  <players>
+    <player class = 'Scott'>
+      <health>5000</health>
+      <icon>Scott.png</icon>
+      <abilities>
+        <ability>
+          <abilityname>Homework</abilityname>
+          <abilitydescription>
+            Serious consequences.
+          </abilitydescription>
+          <value>2599</value>
+        </ability>
+        <ability caston="friendly">
+          <abilityname>Bonus Points</abilityname>
+          <abilitydescription>
+            Impress me.
+          </abilitydescription>
+          <value>4999</value>
+        </ability>
+      </abilities>
+    </player>
+    <player class = 'Wizard'>
+      <health>540</health>
+      <icon>wizard.png</icon>
+      <abilities>
+        <ability caston="enemy">
+          <abilityname>Wizardly Strike</abilityname>
+          <abilitydescription>
+            The wizard strikes their opponent with such force that can only be described as magical.
+          </abilitydescription>
+          <value>200</value>
+        </ability>
+        <ability caston="friendly">
+          <abilityname>Healing Surge</abilityname>
+          <abilitydescription>
+            The Wizard has the ability to heal himself with the flick of his wand.
+          </abilitydescription>
+          <value>200</value>
+        </ability>
+      </abilities>
+    </player>
+    <player class = 'Warrior'>
+      <health>850</health>
+      <icon>warrior.png</icon>
+      <abilities>
+        <ability caston="enemy">
+          <abilityname>Slash</abilityname>
+          <abilitydescription>
+            With the swing of a sword...
+          </abilitydescription>
+          <value>120</value>
+        </ability>
+        <ability caston="enemy">
+          <abilityname>Drink Potion</abilityname>
+          <abilitydescription>
+            Warrior drinks a random potion from who knows where.
+          </abilitydescription>
+          <value>300</value>
+        </ability>
+      </abilities>
+    </player>
+    <player class = 'Rogue'>
+      <health>550</health>
+      <icon>rogue.png</icon>
+      <abilities>
+        <ability caston="enemy">
+          <abilityname>Backstab</abilityname>
+          <abilitydescription>
+            The Rogue quickly rushes behind his enemy and pierces their backside causing
+            them alot of pain.
+          </abilitydescription>
+          <value>500</value>
+          <healingvalue>0</healingvalue>
+        </ability>
+        <ability caston="friendly">
+          <abilityname>In the Shadows</abilityname>
+          <abilitydescription>
+           Rogue quickly hides himself in order to rejuvenate his health.
+          </abilitydescription>
+          <value>100</value>
+        </ability>
+      </abilities>
+    </player>
+  </players>  
+  <bosses>
+    <boss id = '0'>
+      <name>BlueMan</name>
+      <power>20</power>
+      <health>2600</health>
+      <Defence>10</Defence>
+      <icon>boss1.png</icon>
+      <abilities>
+        <ability caston="attack">
+          <abilitynumber>0</abilitynumber>
+          <abilityname>Shooting</abilityname>
+          <abilitydescription>...</abilitydescription>
+          <value>200</value>
+          <Defence>0</Defence>
+        </ability>
+        <ability caston="healing">
+          <abilitynumber>1</abilitynumber>
+          <abilityname>Super Berzerker Dash</abilityname>
+          <abilitydescription>A strong dashing technique in which the boss knocks over anyone in his way with their brute force.</abilitydescription>
+          <value>500</value>
+          <Defence>30</Defence>
+        </ability>
+        <ability caston="attack">
+          <abilitynumber>2</abilitynumber>
+          <abilityname>Gigantic Meteor</abilityname>
+          <abilitydescription>This ability shoots a giant energy blast the size of a meteor! But not everything is as it looks.</abilitydescription>
+          <value>90</value>
+          <Defence>0</Defence>
+        </ability>        
+      </abilities>
+    </boss>
+    <boss id = '1'>
+      <name>Demon King Piccolo</name>
+      <power>100</power>
+      <health>1700</health>
+      <Defence>0</Defence>
+      <icon>boss3.png</icon>
+      <abilities>
+        <ability caston="attack">
+          <abilitynumber>0</abilitynumber>
+          <abilityname>Sphere of Destruction</abilityname>
+          <abilitydescription>A giant sphere of energy is launched at the players having and AOE effect and extreme damage.</abilitydescription>
+          <value>600</value>
+          <Defence>-20</Defence>
+        </ability>
+        <ability caston="healing">
+          <abilitynumber>1</abilitynumber>
+          <abilityname>Death Beam</abilityname>
+          <abilitydescription>A singular shot with the power to cripple enemies in just one shot.</abilitydescription>
+          <value>200</value>
+          <Defence>18</Defence>
+        </ability>
+        <ability caston="attack">
+          <abilitynumber>2</abilitynumber>
+          <abilityname>Gigantic Meteor</abilityname>
+          <abilitydescription>...</abilitydescription>
+          <value>100</value>
+          <Defence>0</Defence>
+        </ability>
+      </abilities>
+    </boss>
+    <boss id = '2'>
+      <name>Saitama the Destroyer</name>
+      <power>70</power>
+      <health>2000</health>
+      <Defence>5</Defence>
+      <icon>boss2.png</icon>
+      <Defence>8</Defence>
+      <icon>boss2.png</icon>
+      <abilities>
+        <ability caston="attack">
+          <abilitynumber>0</abilitynumber>
+          <abilityname>Normal Punch</abilityname>
+          <abilitydescription>This singular energy beam has the right balance of speed and power and can be used a multitude of time.</abilitydescription>
+          <value>400</value>
+          <Defence>-10</Defence>
+        </ability>
+        <ability caston="healing">
+          <abilitynumber>1</abilitynumber>
+          <abilityname>Flex Muscle</abilityname>
+          <abilitydescription>A singular shot with the power to cripple enemies in just one shot.</abilitydescription>
+          <value>350</value>
+          <Defence>30</Defence>
+        </ability>
+        <ability caston="attack">
+          <abilitynumber>2</abilitynumber>
+          <abilityname>Fist of the North Star</abilityname>
+          <abilitydescription>This isn't exactly one of his moves</abilitydescription>
+          <value>25</value>
+          <Defence>0</Defence>
+        </ability>        
+      </abilities>
+    </boss>
+  </bosses>
+</gamedata>
