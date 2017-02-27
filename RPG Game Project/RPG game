@@ -1,4 +1,5 @@
 Since this RPG game is an online game, we need a Client class and a Server class to provide users connect to the server. 
 Also, we designed 4 different characters and bosses with individual data(like health, damage, defense) and skills. 
-We used socket and port number by using their IP address to connect to our server. We used XML files to record all the data for different characters. 
-We want add new data or make any changes,so we used XML files.
+We used socket and port number by using their IP address to connect to our server. 
+We used XML files to record all the data for different characters. 
+
